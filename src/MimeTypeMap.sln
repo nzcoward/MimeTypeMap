@@ -1,9 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimeTypes", "MimeTypes\MimeTypes.csproj", "{D54FB6F6-9042-4925-BFC5-947A363F0849}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimeTypes", "MimeTypes\MimeTypes.csproj", "{D54FB6F6-9042-4925-BFC5-947A363F0849}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimeTypeMapTest", "MimeTypeMapTest\MimeTypeMapTest.csproj", "{62EFD1E4-73CF-46E3-AF84-DB91F14DCA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimeTypes.Standard", "MimeTypes.Standard\MimeTypes.Standard.csproj", "{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,8 +39,23 @@ Global
 		{62EFD1E4-73CF-46E3-AF84-DB91F14DCA6E}.Release|Mixed Platforms.Build.0 = Release|x86
 		{62EFD1E4-73CF-46E3-AF84-DB91F14DCA6E}.Release|x86.ActiveCfg = Release|x86
 		{62EFD1E4-73CF-46E3-AF84-DB91F14DCA6E}.Release|x86.Build.0 = Release|x86
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Debug|x86.Build.0 = Debug|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{CB2ECE29-8AB2-43E3-86D9-B8F8E7CAE0CA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {177384D8-E6C7-4003-B971-2935A05AC790}
 	EndGlobalSection
 EndGlobal
